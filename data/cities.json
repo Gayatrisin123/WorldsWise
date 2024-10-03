@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": "f1e7",
+      "cityName": "Kiraoli",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-03-14T11:41:43.350Z",
+      "notes": "",
+      "position": {
+        "lat": "27.224715260265963",
+        "lng": "77.85633087158205"
+      }
+    },
+    {
+      "id": "6c79",
+      "cityName": "Delhi",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2024-03-14T15:24:41.205Z",
+      "notes": "it was a nice trip",
+      "position": {
+        "lat": "28.64080726919567",
+        "lng": "77.04540252685548"
+      }
+    }
+  ]
+}
