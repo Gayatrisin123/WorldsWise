@@ -1,4 +1,6 @@
 🌍 WorldWise
+
+
 WorldWise is a responsive web application that allows users to record, visualize, and reflect on the places they've visited around the globe. With an interactive map interface and clean UI, users can mark their travel history and explore personal memories tied to each location.
 
 🚀 Features
