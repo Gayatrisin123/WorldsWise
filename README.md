@@ -50,3 +50,6 @@ Clone the repository:
 ```bash
 git clone https://github.com/yourusername/worldwise.git
 cd worldwise
+
+Install dependencies:
+npm install
