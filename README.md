@@ -34,7 +34,7 @@ With a beautifully interactive map, this app lets you log cities, add notes, and
 
 ## 📸 Screenshots
 
-![image](https://github.com/user-attachments/assets/94c2c200-ea55-424c-a927-70959ad94de7)
+![image](https://github.com/Gayatrisin123/WorldsWise/blob/main/Screenshot%202025-07-31%20164856.png)
 
 ## 💻 Getting Started
 
