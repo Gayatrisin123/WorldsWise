@@ -40,12 +40,12 @@ With a beautifully interactive map, this app lets you log cities, add notes, and
 ## 💻 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/worldwise.git
+git clone https://github.com/Gayatrisin123/WorldsWise.git
 cd worldwise
 
 Clone the repository:
 
-git clone https://github.com/yourusername/worldwise.git
+git clone https://github.com/Gayatrisin123/WorldsWise.git
 cd worldwise
 
 Install dependencies:
