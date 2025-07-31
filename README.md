@@ -1,4 +1,4 @@
-# 🌍 WorldWise
+# 🌍 WorldsWise
 
 **Track your travels. Remember your adventures. Inspire others.**
 
@@ -39,8 +39,6 @@ With a beautifully interactive map, this app lets you log cities, add notes, and
 
 ## 💻 Getting Started
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/yourusername/worldwise.git
 cd worldwise
@@ -53,3 +51,6 @@ cd worldwise
 
 Install dependencies:
 npm install
+
+Run the development server:
+npm run dev
