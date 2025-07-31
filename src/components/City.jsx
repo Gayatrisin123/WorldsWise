@@ -1,10 +1,9 @@
 import { useParams } from "react-router-dom";
 import styles from "./City.module.css";
-import { useSearchParams } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
 import { useEffect } from "react";
 import BackButton from "./BackButton";
-import { useNavigate } from "react-router-dom";
+
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
     day: "numeric",
@@ -14,16 +13,15 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
-  // TEMP DATA
   const { id } = useParams();
-  const [searchParams, setSearchParams] = useSearchParams();
+  const { currentCity, getcity } = useCities(); // ✅ must come before useEffect
+
   useEffect(() => {
     getcity(id);
-  }, [id]);
-  // const lat = searchParams.get("lat");
-  // const lng = searchParams.get("lng");
-  const { currentCity, getcity } = useCities();
-  const { cityName, emoji, date, notes } = currentCity;
+  }, [id, getcity]); // ✅ include getcity in dependency array
+
+  const { cityName, emoji, date, notes } = currentCity || {}; // prevent undefined error
+
   return (
     <div className={styles.city}>
       <div className={styles.row}>
@@ -35,7 +33,7 @@ function City() {
 
       <div className={styles.row}>
         <h6>You went to {cityName} on</h6>
-        <p>{formatDate(date || null)}</p>
+        <p>{formatDate(date || new Date())}</p>
       </div>
 
       {notes && (
