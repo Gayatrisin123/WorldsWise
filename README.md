@@ -1,8 +1,45 @@
-# React + Vite
+# 🌍 WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Track your travels. Remember your adventures. Inspire others.**
 
-Currently, two official plugins are available:
+WorldWise is a dynamic world map that lets you pin cities you've visited, capture memories, and visualize your travel history. Whether you're a globetrotter or a weekend explorer, WorldWise helps you:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌐 Keep track of every city you've stepped foot in  
+- ✨ Never forget your favorite experiences  
+- 📍 Visualize your journey across the globe  
+- 👥 Share your wanderlust with friends  
+
+## 🧭 Why WorldWise?
+
+You travel the world.  
+WorldWise keeps track of your adventures.
+
+With a beautifully interactive map, this app lets you log cities, add notes, and revisit your footprints anytime, anywhere.
+
+## 🚀 Features
+
+- 🗺️ Interactive world map
+- 📍 City pinning with location data
+- 📝 Personal notes for each destination
+- 📆 Timestamps to remember when you were there
+- 🔍 Search and filter your visited places
+- 👥 Optional sharing with friends
+
+## 🔧 Tech Stack
+
+- **Frontend**: React, React Router, Context API  
+- **Mapping**: Leaflet.js  
+- **Styling**: Tailwind CSS  
+- **Backend**: JSON Server (for development)
+
+## 📸 Screenshots
+
+*(Add your UI screenshots here if you have any)*
+
+## 💻 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/worldwise.git
+cd worldwise
