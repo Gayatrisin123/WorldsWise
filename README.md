@@ -36,7 +36,14 @@ With a beautifully interactive map, this app lets you log cities, add notes, and
 
 ![image](https://github.com/Gayatrisin123/WorldsWise/blob/main/Screenshot%202025-07-31%20164856.png)
 
+
 ## 💻 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/worldwise.git
+cd worldwise
 
 Clone the repository:
 
