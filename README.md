@@ -34,7 +34,7 @@ With a beautifully interactive map, this app lets you log cities, add notes, and
 
 ## 📸 Screenshots
 
-*(Add your UI screenshots here if you have any)*
+![image](https://github.com/user-attachments/assets/94c2c200-ea55-424c-a927-70959ad94de7)
 
 ## 💻 Getting Started
 
