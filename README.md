@@ -45,7 +45,6 @@ cd worldwise
 
 Clone the repository:
 
-```bash
 git clone https://github.com/yourusername/worldwise.git
 cd worldwise
 
@@ -54,3 +53,13 @@ npm install
 
 Run the development server:
 npm run dev
+
+
+
+#WorldWise is more than just a travel tracker — it’s a digital memory book for explorers.  
+Keep your adventures alive, reflect on the places you've been, and stay inspired for the journeys ahead.
+
+> "The world is a book, and those who do not travel read only one page." – Saint Augustine
+
+Start mapping your story today. 🗺️✈️🌍
+
